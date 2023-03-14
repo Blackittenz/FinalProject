@@ -1,0 +1,13 @@
+READ AND WRITE "nama" as STRING
+READ AND WRITE "alamat" as STRING
+STORE "nama" with "YogaFajar"
+STORE "alamat" with "Cipedes Tengah"
+STORE "Coca_Cola" with "15000"
+STORE "Fanta" with "10000"
+STORE "saldo" with "10000"
+
+IF "saldo" more than equal "Coca_Cola"
+    PRINT "membeli minuman Coca Cola"
+ELSE
+    PRINT "membeli minuman Fanta"
+
